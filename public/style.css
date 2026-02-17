@@ -3,11 +3,15 @@ css
     box-sizing: border-box;
 }
 
+
+
 :root {
     --dark-bg-color: linear-gradient(180deg, rgba(2, 0, 36, 0.40) 0%, rgba(9, 9, 121, 0.35) 50%, rgba(149, 0, 255, 0.90) 100%);
     --dark-primary: rgb(50, 35, 100);
     --dark-secondary: #DCD0F6;
 }
+
+
 
 body {
     font-family: Poppins, sans-serif;
@@ -25,6 +29,8 @@ body {
     align-items: center;
     color: var(--dark-secondary);
 }
+
+
 
 .card {
 
@@ -45,6 +51,7 @@ body {
 }
 
 
+
 .bar {
     background: var(--dark-primary);
     color: white;
@@ -56,6 +63,8 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+
 
 .bar .title {
     transform: rotate(-90deg);
@@ -74,12 +83,16 @@ body {
     text-transform: uppercase;
 }
 
+
+
 .main-content {
     flex: 1;
     padding-left: 16px;
     display: flex;
     flex-direction: column;
 }
+
+
 
 .top {
     display: flex;
@@ -89,11 +102,15 @@ body {
     padding-bottom: 10px;
 }
 
+
+
 .profile-pic {
     border-radius: 15px;
     width: 185px;
     height: 168px;
 }
+
+
 
 .info {
     display: flex;
@@ -103,8 +120,51 @@ body {
     width: 100%;
 }
 
+
+
 .personal-info {
     border-bottom: 2px solid var(--dark-primary);
     padding-bottom: 5px;
     margin-bottom: 8px;
+}
+
+
+
+/* <div class="info-item"> */
+.info-item {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+h2 {
+    color: var(--dark-primary);
+    font-size: 18px;
+    font-weight: 800;
+    margin: 0;
+    margin-right: 20px;
+}
+
+
+
+.preferences {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.preferences .likes,
+.preferences .dislikes {
+    width: 45%;
+}
+
+
+
+.answers {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0;
 }
