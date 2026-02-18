@@ -130,7 +130,6 @@ body {
 
 
 
-/* <div class="info-item"> */
 .info-item {
     display: flex;
     flex-direction: row;
@@ -167,4 +166,45 @@ h2 {
     font-weight: 400;
     line-height: 20px;
     margin: 0;
+}
+
+
+
+p {
+    margin: 5px 0px;
+}
+
+/* div class="skill-items" */
+.skill-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* <div class="skill-item">Coding</div> */
+.skill-items {
+    font-weight: 800;
+    font-size: 16px;
+
+    color: var(--dark-primary);
+    background-color: var(--dark-primary-transparent);
+
+    padding: 5px 15px;
+
+    border: 2px solid var(--dark-primary);
+    border-radius: 10px;
+    margin-right: 6px;
+}
+
+
+/* <a class="skill-item language html"> */
+.language {
+    padding: 5px 5px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+}
+
+.html {
+    border: 2px solid #fc490b
 }
