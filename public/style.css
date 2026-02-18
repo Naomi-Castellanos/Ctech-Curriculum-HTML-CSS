@@ -127,3 +127,30 @@ p {
     border-radius: 10px;
     margin-right: 6px;
 }
+.skill-item {
+    font-weight: 800;
+    font-size: 16px;
+    color: var(--dark-primary);
+    background-color: var(--dark-primary-transparent);
+    padding: 5px 15px;
+    border: 2px solid var(--dark-primary);
+    border-radius: 10px;
+    margin-right: 6px;
+}
+.language {
+    padding: 5px 5px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+}
+.html {
+    border: 2px solid #FC490B;
+}
+
+.css {
+    border: 2px solid #2196F3;
+}
+
+.js {
+    border: 2px solid #FFDF00;
+}
