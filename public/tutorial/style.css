@@ -24,3 +24,17 @@ body {
     align-items: center;
     color: var(--dark-secondary);
 }
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    padding: 29px 28px 21px 33px;
+    border-radius: 25px;
+    border: 1px solid #DCD0F6;
+    background: rgba(255, 255, 255, 0.30);
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(15px);
+    max-width: 625px;
+}
