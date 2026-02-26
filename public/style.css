@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box; 
 }
-*:root 
+/* *:root  */
 :root {
     --dark-bg-color: linear-gradient(180deg, rgba(2, 0, 36, 0.40) 0%, rgba(9, 9, 121, 0.35) 50%, rgba(149, 0, 255, 0.90) 100%);
     --dark-primary: rgb(50, 35, 100);
@@ -40,23 +40,22 @@ body {
     background: rgb(3, 3, 3)
 }
 
-
+h1
+{
+    color: red;
+    transform: rotate(-90deg);
+}
 
 
 .container1{
     display: flex;
+   
 }
-
-
-
-
-
 
 
 .container2{
-    display: flex;
+    /* display: flex; */
 }
-
 
 
 .bar {
