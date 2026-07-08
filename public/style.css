@@ -154,3 +154,190 @@ p {
 .css {
     border: 2px solid #2196
 }
+.js {
+    border:2px solid #FFDF00
+}
+@media screen and (max-width: 750px) {
+    .card {
+        flex-direction: columm-reverse;
+        max-width: 350px;
+        padding:15px;
+    }
+}
+.card {
+    display: flex;
+    flex-direction: row;
+    /* other properties...*/
+}
+@media screen and (max-width: 750px) {
+    .card {
+        flex-direction: columm-reverse;
+        max-width: 350px;
+        padding: 15px;
+    }
+}
+.bar {
+    background: var(--dark-primary);
+    color: white;
+    width: 60px;
+    min-width: 60px;
+    border-radius: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.bar .title {
+    transform: rotate(-90deg)
+    /* more styles...*/
+}
+@media screen and (max-width: 750px) {
+    h1 {
+        margin: 0px;
+    }
+    .bar {
+        width: 100%
+        min-width: auto;
+        padding: 8px 10px;
+        border-radius: 16px;
+        margin 10px 0px;
+    }
+}
+@media screen and (max-width: 750px) {
+    h1 {
+        margin: 0px;
+    }
+    .bar {
+        width: 100%;
+        min-width: auto;
+        padding: 8px 10px;
+        border-radius: 16px;
+        margin: 10px 0px;
+    }
+}
+@media screen and (max-width; 750px) {
+    .bar .title {
+        transform: rotate(0deg);
+        font-size: 25px;
+    }
+}
+<div class="main-content">
+<!-- Top + bottom sections live in here -->
+</div>
+.main-content {
+    flex: 1;
+    padding-left 16px;
+    display: flex;
+    flex-direction: columm;
+}
+@media screen and (max-width: 750px) {
+    .main-content {
+    padding-left: 0px;
+    }
+}
+.profile-pic {
+    border-radius: 15px;
+    width: 185px;
+    height: 168px;
+}
+@media screen and (max-width: 750px) {
+    .profile-pic {
+        border-radius: 15px;
+        width: 50%
+        height: auto;
+    }
+}
+.info-item {
+    display: flex;
+    flex-direction: row;
+}
+@media screem and (max-width: 750px) {
+    .info-item {
+        flex-direction: columm;
+        font-size: 14px;
+    }
+    .info-item h2 {
+        padding: 10px 0px;
+    }
+    h2 {
+        font-size: 14px;
+        margin-right: 10px;
+    }
+}
+<div class="preferences desktop">
+    <div class="likes">
+        <h2>Likes:</h2>
+        <ul class="answers">
+            <li>Coding</li>
+            <li>Music</li>
+            <li>Art</li>
+        </ul>
+    </div>
+    <div class="dislikes">
+        <h2>Dislikes:</h2>
+        <ul class="answers">
+            <li>Spam Emails</li>
+            <li>Slow Internet</li>
+        </ul>
+    </div>
+</div>
+<div class="preferences mobile">
+    <div class="likes">
+        <h2>Likes:</h2>
+        <div class="answers">
+            <div>Coding, Art, Music</div>
+        </div>
+    </div>
+    <div class="dislikes">
+        <h2>Dislikes:</h2>
+        <div class="answers">
+            <div>Coding, Art, Music</div>
+        </div>
+    </div>
+</div>
+.preferences {
+    display: flex;
+    flex-direction: row;
+}
+.preferences.mobile {
+    display: none;
+}
+.preferences .likes,
+.preferences .dislikes {
+    width: 45%;
+}
+@media screen and (max-width: 750px) {
+    .preference.desktop {
+        display: none;
+    }
+    .preferences.mobile {
+        display: block;
+        border-bottom: 2px solid var(--dark-primary);
+        padding: 10px 0px;
+    }
+    .preferences .likes,
+    .preferences .dislikes {
+        display: flex;
+        flex-direction: row;
+        align-items: end;
+        width: 100%;
+        font-size: 14px;
+    }
+}
+p {
+    margin: 5px 0px;
+}
+@media screen and (max-width: 750px) {
+    .skill-item {
+        font-size: 14px;
+    }
+}
+.skill-item {
+    font-weight: 800;
+    font-size: 16px;
+    /* more styles...*/
+}
+@media screen and (max-width: 750px) {
+    .skill-item {
+        font-size: 14px;
+    }
+}
