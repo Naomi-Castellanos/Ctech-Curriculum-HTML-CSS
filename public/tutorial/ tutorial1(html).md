@@ -1,4 +1,3 @@
-# **📘 Building an ID Card in HTML — Step-by-Step Tutorial**
 
 In this tutorial, you’ll build a full HTML document that displays a simple **Creative Tech ID Card**. We’ll start from scratch using the **HTML:5 boilerplate**, learn what each tag does, and assemble the content section by section.
 Styling (CSS) will come later for now, we’re focusing on clean, structured HTML.
@@ -291,6 +290,5 @@ Here is the full clean version you will build:
     </main>
 </body>
 </html>
-```
 
 ---
